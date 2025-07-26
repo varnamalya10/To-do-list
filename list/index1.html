@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    h1 {
+      text-align: center;
+      color: #007bff;
+    }
+    .todo-input {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .todo-input input {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+    }
+    .todo-input button {
+      padding: 10px 15px;
+    }
+    .todo-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .todo-item p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>My To-Do List</h1>
+
+  <div class="todo-input">
+    <input type="text" placeholder="Add new task...">
+    <button>Add</button>
+  </div>
+
+  <div class="todo-item">
+    <div>
+      <input type="checkbox" checked>
+      <p>Complete Certification course</p>
+    </div>
+    <small>Created: 24 July 2025</small>
+  </div>
+
+  <div class="todo-item">
+    <div>
+      <input type="checkbox">
+      <p>Do paper presentation</p>
+    </div>
+    <small>Due: 24 July 2025</small>
+  </div>
+
+  <div class="todo-item">
+    <div>
+      <input type="checkbox">
+      <p>Sign up for online course</p>
+    </div>
+    <small>Created: 24 July 2025</small>
+  </div>
+</div>
+
+</body>
+</html>
